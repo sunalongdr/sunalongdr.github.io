@@ -1,0 +1,71 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,textarea,input{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: #999;}
+i{font-style: normal;}
+body{font-family: arial,"微软雅黑","宋体"}
+input{border-style: none;}
+
+
+.header{height: 174px;border-bottom: 2px solid #b1191a;}
+.top{height: 30px;line-height: 30px;background-color: #f1f1f1;}
+.inner{width:1210px;margin: 0 auto;font-family: "宋体";}
+.clearfix:after{
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height:0;
+	clear: both;
+	
+}
+.top .inner  .left{float: left;font-size: 12px;}
+.top .inner ul{float: right;}
+.top .inner li{float: left;}
+.top .inner .gang{margin-top:9px;width: 1px;height: 12px;background-color: #ddd;}
+.top .inner a{padding:0 10px;font-size: 12px;color:#666;display: inline-block;font-family: "宋体";height: 30px;line-height: 30px;}
+.top .inner .m{color: #c81623;margin-left: 6px;}
+.top .inner i{font-family:consolas;font-size: 15px;width:10px;height: 5px;line-height: 0px;overflow: hidden;display: inline-block;margin-left: 9px;}
+.top .inner .p{width:15px;height:20px;margin:5px 3px 0 0;background: url(../images/jd2015img.png) no-repeat 0 0;float:left;}
+.top .inner li:hover a{color: #c81623;}
+.top .inner li:hover i{line-height: 10px;}
+.top .inner li:hover .p{background: url(../images/jd2015img.png) no-repeat 0 -25px;}
+.top .inner li:hover .i{background-color: #fff;}
+.header .mid{padding: 25px 0 11px 0;width:1210px;margin: 0 auto;}
+.header .mid img{float:left;}
+.header .mid .shou{float: left;padding-left: 95px;width: 600px;}
+.header .mid .k{width:454px;height:32px ;border:2px solid #b61d1d;float: left;}
+.header .mid .s{width: 80px;height:36px;background-color: #b61d1d;float: left;}
+.header .mid ul{width:538px;overflow: hidden;}
+.header .mid li{float: left;font-size: 12px;font-family: "宋体";line-height: 28px;height:28px ;margin-right: 11px;}
+.header .mid .mid-che{background:url(../images/jd2015img.png) no-repeat 18px -49px;color:#666; 
+ position:relative;float:right;display: block;width:60px;padding:0 36px 0 44px;height:34px;
+ line-height:34px;border:1px solid #dfdfdf;font-family: "宋体";font-size: 12px;position: relative;}
+.header .mid .mid-che a{display: block;line-height:34px;font-family: "宋体";font-size: 12px;}
+.header .mid .mid-che span{position: absolute;top: 0;right: 11px;}
+.header .mid .mid-che .num{height: 12px;background-color: #c81623;color: #fff;border-radius: 6px;border-bottom-left-radius: 0;position: absolute;left: 104px;top:-5px;padding-left: 6px;padding-right: 4px;}
+.header dl{width:1210px;margin: 0 auto;line-height: 44px;height:44px;font-size: 16px;}
+.header dl a{color: #333;display: block;float: left;}
+.header dt{float: left;width:200px;padding-left:10px;height: 44px;color: #fff;background-color: #b1191a;}
+.header dt a{color: #fff;}
+.header dd{float: left;}
+.header dd a{margin:0 20px;}
+.header .inner a:hover{color: red;}
+
+.slogan{background:#f5f5f5;}
+.slogan .bg{height:94px;background: url(../images/105_07.jpg) no-repeat 0 0;}
+.footer dl{width:197px;float:left;padding-top: 15px;}
+.footer dl dt{height: 38px;line-height: 38px;font-size: 16px;color: #666;font-family: "microsoft yahei";}
+.footer dl dd{height: 20px;line-height: 20px;font-size: 12px;font-family: "宋体";}
+.footer dl.fif{width:167px;}
+.footer dl.last{height:169px;width:190px;background: url(../images/20130330B_1.png) no-repeat 0 -131px;}
+.footer dl.last dd a{display: block;margin-left: 130px;}
+
+.foot_last{ width:1200px;margin:0 auto;text-align:center;border-top:1px solid #e5e5e5;}
+.foot_last .foot_ul{ padding-top:21px;display:inline-block;}
+.foot_last .foot_ul li{ float:left;line-height:16px;height:16px;font-size:12px;}
+.foot_last .foot_ul li a{ margin:0 11px;}
+.foot_last .foot_ul li a:hover{ color:#c81623;}
+.foot_last .copyright{ display:inline-block;font-size:12px;line-height:20px;padding-top:10px;}
+.foot_last .copyright .jing{ padding-left:22px;background:url(../images/56a0a994Nf1b662dc.png) no-repeat;}
+.foot_last .copyright a:hover{ color:#c81623;}
+.foot_last .f_icon{ margin:9px 0 30px;font-size:0;}
+.foot_last .f_icon a{ margin:0 6px 0 7px;}

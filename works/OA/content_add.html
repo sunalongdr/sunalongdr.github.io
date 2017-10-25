@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OA办公系统</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/Chart.js" ></script>
+    <script type="text/javascript" src="js/script.js" ></script>
+    <style>
+    	.list-group{color: #357bb9; font-size: 15px;}
+    	.mytab{margin-bottom: 10px ;}
+    	.myCard small{padding-top: 4px;}
+    	.media{background: #f5f5f5; border-radius: 6px; padding: 15px; border: 1px solid #e3e3e3;}
+    	.media img{height: 70px;}
+    	.media h4{margin-top: 8px;}
+    	.media p{font-size: 15px;}
+    	.page-header{font-size: 24px; margin-top: 0;}
+    	#myTab{margin-bottom: 15px;}
+    	
+    </style>
+</head>
+<body>
+	<!--顶部导航-->
+	<nav class="navbar navbar-default" role="navigation">
+	    <div class="container">
+	    	<div class="navbar-header">
+		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+		         	<span class="sr-only">切换导航</span>
+		         	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+		      	</button>
+		      	<a class="navbar-brand" href="#">OA办公系统</a>
+		   	</div>
+		   	<div class="collapse navbar-collapse" id="example-navbar-collapse">
+		      	<ul class="nav navbar-nav navbar-left">
+		         	<li><a href="index.html"><span class="glyphicon glyphicon-home">&nbsp;管理首页</span></a></li>
+		         	<li><a href="usr_manage.html"><span class="glyphicon glyphicon-user">&nbsp;用户管理</span></a></li>
+		         	<li class="active"><a href="content_manage.html"><span class="glyphicon glyphicon-list-alt">&nbsp;内容管理</span></a></li>
+		         	<li><a href="tag_manage.html"><span class="glyphicon glyphicon-tags">&nbsp;标签管理</span></a></li>
+		         	<li><a href="my_mail.html"><span class="glyphicon glyphicon-envelope">&nbsp;我的邮箱</span></a></li>
+		      	</ul>
+		      	<ul class="nav navbar-nav navbar-right">
+		      		<li ><img src="images/touxiang.jpg" class="img-responsive" style="margin-left:14px; max-height:50px;" /></li>
+		         	<li class="dropdown">
+			            <a href="#" class="dropdown-toggle" data-toggle="dropdown">管理员<b class="caret"></b></a>
+			            <ul class="dropdown-menu">
+			                <li><a href="#"><span class="glyphicon glyphicon-screenshot">&nbsp;前台首页</span></a></li>
+			               	<li><a href="#"><span class="glyphicon glyphicon-user">&nbsp;个人主页</span></a></li>
+			               	<li><a href="#"><span class="glyphicon glyphicon-cog">&nbsp;个人设置</span></a></li>
+			               	<li><a href="#"><span class="glyphicon glyphicon-user">&nbsp;账户中心</span></a></li>
+			               	<li><a href="#"><span class="glyphicon glyphicon-user">&nbsp;我的收藏</span></a></li>
+			            </ul>
+		         	</li>
+		      	</ul>
+		      	
+		   	</div>
+		   	
+	    </div>
+	    
+	</nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="list-group">
+					<a href="content_manage.html" class="list-group-item">内容管理</a>
+	  				<a href="content_add.html" class="list-group-item active">添加内容</a>
+				</div>
+			</div>
+			
+			<div class="col-md-10">
+				<div class="page-header">内容管理</div>
+				
+				<ul id="myTab" class="nav nav-tabs">
+				    <li><a href="content_manage.html">内容管理</a></li>
+				    <li class="active"><a href="content_add.html">添加内容</a></li>
+				</ul>
+				
+				<form class="form-horizontal" role="form">
+				  	<div class="form-group">
+				    	<label for="firstname" class="col-md-2">标题</label>
+					    <div class="col-md-12">
+					      	<input type="text" class="form-control" id="firstname" placeholder="请输入文章标题">
+					    </div>
+				  	</div>
+				  	
+				  	<form role="form">
+					  	<div class="form-group">
+					    	<label for="name" class="col-md-2">文章内容</label>
+					    	<div class="col-md-12">
+					    		<textarea class="form-control" rows="10">请输入文章正文部分</textarea>
+					    	</div>
+					  	</div>
+					</form>
+				  	
+				  	<div class="form-group">
+					    <div class="col-md-2">
+					      <div class="checkbox">
+					        <label>
+					          	<input type="checkbox">全局置顶
+					        </label>
+					      </div>
+					    </div>
+					</div>
+				  	
+				  	<div class="form-group">
+					    <div class="col-md-offset-11">
+					      <button type="submit" class="btn btn-default">发布文章</button>
+					    </div>
+					</div>
+				</form>
+
+				
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
